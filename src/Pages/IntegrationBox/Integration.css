@@ -1,0 +1,177 @@
+.section-integration {
+  margin-bottom: 64px;
+}
+
+@media only screen and (max-width: 768px) {
+  .section-integration {
+    margin-bottom: 48px;
+  }
+}
+
+@media only screen and (max-width: 760px) {
+  .section-integration .container {
+    max-width: 100%;
+    padding: 0;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .section-integration .integration-box__wrapp {
+    border-radius: 0;
+  }
+}
+
+.integration-box__wrapp {
+  background: #201f26;
+  border-radius: 12px;
+  padding: 80px;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+
+@media only screen and (max-width: 1280px) {
+  .integration-box__wrapp {
+    padding: 80px 64px;
+  }
+}
+
+@media only screen and (max-width: 1010px) {
+  .integration-box__wrapp {
+    display: flex;
+    justify-content: center;
+    padding: 80px 54px 333px;
+  }
+}
+
+@media only screen and (max-width: 760px) {
+  .integration-box__wrapp {
+    padding: 64px 24px 213px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .integration-box__wrapp {
+    padding: 40px 24px 213px;
+  }
+}
+
+.integration-box__wrapp::after {
+  content: "";
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+  width: 45%;
+  height: 344px;
+  background-image: url(https://cdn-landing.snov.io/images/email-drip-campaigns/Integrations-new-x2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -1;
+}
+
+@media only screen and (max-width: 1280px) {
+  .integration-box__wrapp::after {
+    width: calc(45% - 16vw);
+  }
+}
+
+@media only screen and (max-width: 1010px) {
+  .integration-box__wrapp::after {
+    background-image: url(https://cdn-landing.snov.io/images/email-drip-campaigns/Integrations-new-full-x2.png);
+    width: 584px;
+    right: 50%;
+    transform: translateX(calc(50% + 20px));
+    bottom: -50px;
+    background-size: contain;
+  }
+}
+
+@media only screen and (max-width: 760px) {
+  .integration-box__wrapp::after {
+    background-image: url(https://cdn-landing.snov.io/images/email-drip-campaigns/Integrations-new-min-x2.png);
+    width: 327px;
+    height: 192px;
+    bottom: -18px;
+    right: 50%;
+    transform: translateX(50%);
+  }
+}
+
+@media only screen and (max-width: 595px) {
+  .integration-box__wrapp::after {
+    right: initial;
+    left: 24px;
+    transform: initial;
+  }
+}
+
+@media only screen and (max-width: 374px) {
+  .integration-box__wrapp::after {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+
+.integration-box__wrapp .integration-box__about {
+  max-width: 548px;
+  color: #fff;
+}
+
+.integration-box__wrapp .integration-box__about-title {
+  text-align: initial;
+  color: unset;
+  margin-bottom: 12px;
+}
+
+@media only screen and (max-width: 400px) {
+  .integration-box__wrapp .integration-box__about-title {
+    text-align: center;
+  }
+}
+
+.integration-box__wrapp .integration-box__about-text {
+  font-size: 18px;
+  line-height: 1.5;
+  color: unset;
+  margin-bottom: 32px;
+}
+
+@media only screen and (max-width: 760px) {
+  .integration-box__wrapp .integration-box__about-text {
+    letter-spacing: -0.03px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .integration-box__wrapp .integration-box__about-text {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+}
+
+.integration-box__wrapp .integration-box__about-text span {
+  text-decoration: underline;
+}
+
+.integration-box__wrapp .integration-box__about-link {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  line-height: 1.8;
+  color: unset;
+}
+
+@media only screen and (max-width: 400px) {
+  .integration-box__wrapp .integration-box__about-link {
+    justify-content: center;
+  }
+}
+
+.integration-box__wrapp .integration-box__about-link svg {
+  margin-left: 8px;
+  transition: transform 0.2s ease;
+}
+
+.integration-box__wrapp .integration-box__about-link:hover svg {
+  transform: translateX(9px);
+}

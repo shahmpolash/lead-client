@@ -1,0 +1,87 @@
+.one-review {
+  margin-bottom: 64px;
+}
+
+@media only screen and (max-width: 768px) {
+  .one-review {
+    margin-bottom: 48px;
+  }
+}
+
+.one-review__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #8348ff;
+  border-radius: 0px 0px 12px 12px;
+  padding: 63px 110px 64px;
+  color: #fff;
+}
+
+@media only screen and (max-width: 1300px) {
+  .one-review__inner {
+    padding: 63px 60px 64px;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .one-review__inner {
+    padding: 40px 24px;
+  }
+}
+
+@media only screen and (max-width: 1100px) {
+  .one-review__inner {
+    flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 1100px) {
+  .one-review__picture {
+    order: 2;
+  }
+}
+
+.one-review__text {
+  max-width: 577px;
+}
+
+@media only screen and (max-width: 1100px) {
+  .one-review__text {
+    order: 1;
+    margin-bottom: 32px;
+    text-align: center;
+  }
+}
+
+.one-review__text-description {
+  margin-bottom: 20px;
+}
+
+.one-review__text-description h2 {
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 1.4;
+}
+
+@media only screen and (max-width: 1000px) {
+  .one-review__text-description h2 {
+    font-size: 26px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .one-review__text-description h2 {
+    font-size: 24px;
+  }
+}
+
+.one-review__text-author {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.one-review__text-author span {
+  font-weight: 400;
+}
